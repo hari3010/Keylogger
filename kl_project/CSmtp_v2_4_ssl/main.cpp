@@ -30,13 +30,13 @@ extern "C" __declspec(dllexport) int sendfile()
 		mail.SetSecurityType(USE_SSL);
 #endif
 
-		mail.SetLogin("klfall2015"); /*klfall2015@gmail.com*/
-		mail.SetPassword("MstRolla@321");
+		mail.SetLogin("Someemail");
+		mail.SetPassword("password");
   		mail.SetSenderName("Network Security");
-		mail.SetSenderMail("klfall2015@gmail.com");
+		mail.SetSenderMail("sendingemail");
   		mail.SetReplyTo("");
   		mail.SetSubject("The message");
-  		mail.AddRecipient("klfall2015@gmail.com");
+  		mail.AddRecipient("addreceipient");
   		mail.SetXPriority(XPRIORITY_NORMAL);
   		mail.SetXMailer("The Bat! (v3.02) Professional");
   		mail.AddMsgLine("Hello,");
