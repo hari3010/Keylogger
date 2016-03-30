@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kl_project", "kl_project\kl_project.vcxproj", "{5057508F-1BCD-4384-8EBF-39408DCD6CD0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CSmtp", "CSmtp_v2_4_ssl\CSmtp.vcxproj", "{567388CF-8BEC-4335-95D9-240F39622EB2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dll_helper", "dll_helper\dll_helper.vcxproj", "{3B6F5663-F28A-460B-BFCB-0393F443D1D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5057508F-1BCD-4384-8EBF-39408DCD6CD0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5057508F-1BCD-4384-8EBF-39408DCD6CD0}.Debug|Win32.Build.0 = Debug|Win32
+		{5057508F-1BCD-4384-8EBF-39408DCD6CD0}.Release|Win32.ActiveCfg = Release|Win32
+		{5057508F-1BCD-4384-8EBF-39408DCD6CD0}.Release|Win32.Build.0 = Release|Win32
+		{567388CF-8BEC-4335-95D9-240F39622EB2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{567388CF-8BEC-4335-95D9-240F39622EB2}.Debug|Win32.Build.0 = Debug|Win32
+		{567388CF-8BEC-4335-95D9-240F39622EB2}.Release|Win32.ActiveCfg = Release|Win32
+		{567388CF-8BEC-4335-95D9-240F39622EB2}.Release|Win32.Build.0 = Release|Win32
+		{3B6F5663-F28A-460B-BFCB-0393F443D1D3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3B6F5663-F28A-460B-BFCB-0393F443D1D3}.Debug|Win32.Build.0 = Debug|Win32
+		{3B6F5663-F28A-460B-BFCB-0393F443D1D3}.Release|Win32.ActiveCfg = Release|Win32
+		{3B6F5663-F28A-460B-BFCB-0393F443D1D3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
